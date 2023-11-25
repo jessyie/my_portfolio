@@ -109,7 +109,7 @@ h2 span
     height: 60px;
     margin-top: 35px;
     margin-right: 574px;
-    background: url(image1.jpg);
+    background: url(../images/image1.jpg);
     background-size: cover;
     background-repeat: repeat-x;
     transform-style: preserve-3d;
