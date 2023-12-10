@@ -193,3 +193,88 @@ h3:hover a span
         filter: drop-shadow(0 0 0 var(--clr));
     }
 }
+.linkEDin1 {
+    font-size: -webkit-xxx-large;
+}
+
+@media screen and (max-width: 600px)
+{
+    .linkEDin1 {
+        font-size: larger;
+        margin-top: -8vh;
+    }
+    .earth {
+        margin-right: 17vw;
+        margin-top: -1vh;
+        width: 14vw;
+        height: 7vh;
+    }
+    #heada1 {
+        font-size: 6vw;
+        margin-left: 16vw;
+    }
+    #mainCarousel {
+        margin-top: 9vh;
+        right: 4vw;
+        width: 93vw;
+    }
+    .projects {
+        font-size: 10vw;
+        margin-top: 7vh;
+        right: 21vw;
+    }
+}
+@media screen and (max-width: 900px) and (min-width: 600px) {
+    .linkEDin1 {
+        font-size: larger;
+        margin-top: -8vh;
+    }
+    .earth {
+        margin-right: 25vw;
+        margin-top: 5vh;
+        width: 14vw;
+        height: 7vh;
+    }
+    #heada1 {
+        font-size: 6vw;
+        margin-left: 16vw;
+    }
+    #mainCarousel {
+        margin-top: 16vh;
+        right: 3.5vw;
+        width: 93vw;
+    }
+    .projects {
+        font-size: 10vw;
+        margin-top: 7vh;
+        right: 21vw;
+    }
+}
+@media screen and (min-width: 900px) {
+    .linkEDin1 {
+        font-size: 2vw;
+        margin-top: 1vh;
+        margin-left: -7vw;
+    }
+    .earth {
+        margin-left: -37;
+        margin-right: 45vw;
+        margin-top: 5vh;
+        width: 4vw;
+        height: 7vh;
+    }
+    #heada1 {
+        font-size: 2vw;
+        margin-left: 1vw;
+    }
+    #mainCarousel {
+        margin-top: 16vh;
+        right: 27.5vw;
+        width: 43vw;
+    }
+    .projects {
+        font-size: 2vw;
+        margin-top: 7vh;
+        right: 45vw;
+    }
+}
